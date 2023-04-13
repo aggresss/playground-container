@@ -8,3 +8,10 @@
 - https://blog.csdn.net/weixin_45710811/article/details/126256165
 - https://www.cnblogs.com/vincegod/p/16101797.html
 
+```
+kubectl create deployment hello-nginx --image=nginx --replicas=2
+kubectl expose deployment hello-nginx --port=8001 --target-port=80 --type=NodePort
+kubectl get service
+```
+
+集群内部可以通过 8001 访问
