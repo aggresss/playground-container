@@ -13,11 +13,11 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:latest
-        ports:
-        - containerPort: 80
-        resources:
-          limits:
-            cpu: "1000m"
-            memory: "400Mi"
+        - name: nginx
+          image: nginx:latest
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              cpu: "1000m"
+              memory: "400Mi"
