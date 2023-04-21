@@ -32,3 +32,8 @@ NAME          TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
 hello-nginx   ClusterIP   10.101.93.106   <none>        8001/TCP   3s
 kubernetes    ClusterIP   10.96.0.1       <none>        443/TCP    3d9h
 ```
+
+---
+
+nginx ingress
+
